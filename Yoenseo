@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Yeon Seo</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(to bottom, #ffe4e1, #ffccff);
+            color: #333;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        .container {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        h1 {
+            font-family: 'Pacifico', cursive;
+            font-size: 3.5rem;
+            color: #ff69b4;
+            margin: 0;
+        }
+
+        .message {
+            font-size: 1.5rem;
+            margin: 20px 0;
+            line-height: 1.8;
+        }
+
+        .balloons {
+            font-size: 5rem;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+
+        
+        .message-section {
+            text-align: center;
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+
+        .scroll-section {
+            background: #f8f9fa;
+            padding: 30px;
+            border-top: 2px solid #ff69b4;
+            width: 80%;
+            
+            margin-bottom: 20px;
+            overflow-y: auto;
+        }
+
+        .scroll-section h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #660099;
+        }
+
+        .scroll-section p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            margin-bottom: 10px;
+        }
+
+        .message-large {
+            font-family: 'Anton', sans-serif;
+            font-size: 5rem;
+            color: red;
+            text-align: center;
+            width: 100%;
+            transform: rotate(-10deg);
+            letter-spacing: 5px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+            position: relative;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎉 Happy Birthday, Yeon Seo! 🎂</h1>
+        <div class="message-section">
+            <p class="message">
+                May your day be filled with joy, love, and laughter. Here's to celebrating 
+                another wonderful year of your amazing life. Wishing you all the best today 
+                and always!
+            </p>
+            <p class="balloons">🎈🎈🎈</p>
+        </div>
+    </div>
+
+    <div class="scroll-section">
+        <h2>More Birthday Wishes 🎁</h2>
+        <p>🌟 May all your dreams come true, and may happiness surround you always.</p>
+        <p>💖 Thank you for being such a wonderful and inspiring person in our lives.</p>
+        <p>🎊 May this year bring you countless blessings and endless opportunities.</p>
+        <p>🎶 Sing, dance, and enjoy your day to the fullest because you deserve it!</p>
+        <p>✨ Here's to a year of health, success, and unforgettable moments. Happy Birthday, Yeon Seo!</p>
+    </div>
+
+    <div class="message-large">FUCK YOU</div>
+</body>
+</html>
